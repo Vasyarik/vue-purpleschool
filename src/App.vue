@@ -1,9 +1,11 @@
 <script setup>
+import Header from "@/components/Header.vue";
+
 const currentDate = new Date();
 </script>
 
 <template>
-{{ currentDate }}
+  <Header />
 </template>
 
 <style scoped>
