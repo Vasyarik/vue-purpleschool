@@ -3,4 +3,22 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    /* ### Colors ### */
+    --color-primary: #008BFE;
+    --color-primary-hover: #006FCB;
+    --color-button-primary-light: #CCE8FF;
+
+    --color-font-main: #000000;
+    --color-font-accent: #222222;
+    --color-font-light: #FFFFFF;
+
+    --color-success: #09BB00;
+    --color-fail: #D00303;
+
+    --main-font: "Roboto", sans-serif;
+}
+
+* {
+    font-family: var(--main-font);
 }
